@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # This Script is written by Shahram M Sabery, RC2, Bartlett, UCL, DEC.2020
 # The ROS side of  assignment B is done here, please note that there is 2 option for motor controls in unity
