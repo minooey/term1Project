@@ -211,7 +211,7 @@ class Controller:
         self.x = data.data
         self.set_positionb = abs(self.x-2000)       #M1  rotation, this value is same as grasshopper matrix & unity scripts
     def callback2(self, data):
-        self.set_pos2 = self.set_positionb / 2      #M2 head rotation, this value is same as grasshopper matrix & unity scripts
+        self.set_pos2 = int(self.set_positionb / 2)      #M2 head rotation, this value is same as grasshopper matrix & unity scripts
 
     def callback3(self, data):
         self.set_pos3 = self.x + 2000               #M2 arm rotation , this value is same as grasshopper matrix & unity scripts
